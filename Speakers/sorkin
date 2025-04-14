@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Andrew Ross Sorkin</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Andrew Ross Sorkin</h1>
+  </header>
+
+  <main>
+    <p>This page is under construction.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mansi Sangani. Assignment A11 Due April 15, 2025.</p>
+  </footer>
+</body>
+</html>
