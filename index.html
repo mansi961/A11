@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>San Joaquin Valley Town Hall</title>
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="styles/slicknav.css" />
-    <link rel="stylesheet" href="styles/jquery.slicknav.min.js" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery.slicknav.min.js"></script>
 
 
 
@@ -20,7 +20,7 @@
       </h3>
     </header>
     <!-- Navigation Menu -->
-<ul class="nav-menu">
+
   <li><a href="#">Home</a></li>
   <li><a href="#">Speakers</a></li>
   <li><a href="#">Luncheons</a></li>
@@ -36,6 +36,14 @@
   </li>
 </ul>
     <!-- Hamburger menu icon -->
+    <script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('nav-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
 <div class="menu-toggle" id="menu-toggle">
   <span></span>
   <span></span>
