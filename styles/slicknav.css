@@ -304,7 +304,7 @@
 .nav-menu {
   list-style: none;
   display: flex;
-  background-color: #f0f0f0;
+  background-color: #931420;
   padding: 10px 20px;
   margin: 0;
   gap: 20px;
@@ -316,13 +316,13 @@
 
 .nav-menu a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: bold;
   padding: 5px 10px;
 }
 
 .nav-menu li:hover > a {
-  background-color: #ddd;
+  background-color: #800000;
 }
 
 /* Dropdown styling */
@@ -347,7 +347,11 @@
 }
 
 .nav-menu .dropdown a {
-  color: #007BFF;
+  color: white;
   padding: 5px 10px;
   display: block;
 }
+.nav-menu .dropdown a:hover {
+  background-color: #800000; /* Hover effect in dropdown */
+}
+
