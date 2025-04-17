@@ -354,4 +354,97 @@
 .nav-menu .dropdown a:hover {
   background-color: #800000; /* Hover effect in dropdown */
 }
+/* Hamburger icon styling */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  width: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.menu-toggle span {
+  height: 4px;
+  background: white;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+/* Navigation menu styling */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  background-color: #931420;
+  padding: 10px 20px;
+  margin: 0;
+  gap: 20px;
+}
+
+.nav-menu > li {
+  position: relative;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.nav-menu li:hover > a {
+  background-color: #800000;
+}
+
+/* Dropdown */
+.nav-menu .dropdown {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  list-style: none;
+  background-color: #931420;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 100;
+}
+
+.nav-menu li:hover .dropdown {
+  display: block;
+}
+
+.nav-menu .dropdown a {
+  color: white;
+  display: block;
+  padding: 5px 10px;
+}
+
+.nav-menu .dropdown a:hover {
+  background-color: #800000;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu li {
+    position: static;
+  }
+
+  .nav-menu .dropdown {
+    position: static;
+    border: none;
+  }
+}
 
