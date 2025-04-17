@@ -332,9 +332,10 @@
   top: 35px;
   left: 0;
   list-style: none;
-  background-color: blank;
+  background-color: #931420; /* Jam red dropdown */
   padding: 10px;
   border: 1px solid #ccc;
+  z-index: 100;
 }
 
 .nav-menu li:hover .dropdown {
