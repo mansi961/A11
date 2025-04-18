@@ -216,31 +216,3 @@ footer p {
         font-size: 90%;
     }
 }
-
-/* Portrait styles */
-@media only screen and (orientation: portrait) {
-    body {
-        background-color: #fffded;
-        font-size: 100%;
-    }
-    header h2 {
-        font-size: 150%;
-    }
-    section {
-        width: 100%;
-    }
-}
-
-/* Landscape styles */
-@media only screen and (orientation: landscape) {
-    body {
-        background-color: #ffffff;
-        font-size: 110%;
-    }
-    header h2 {
-        font-size: 130%;
-    }
-    section {
-        width: 70%;
-    }
-}
