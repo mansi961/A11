@@ -1,5 +1,20 @@
-/* the styles for the elements */
-* {
+/* the styles for mobile */
+#mobile_menu{
+    display: none;
+}
+@media only screen and (max-width: 730px) {
+    section h1 {
+        front-size: 125%
+    }
+    section h2, aside h2 {
+        front-size: 110%;
+    }
+    aside h3 a {
+        font-size: 85%;
+    }
+}
+
+        
     margin: 0;
     padding: 0;
   }
